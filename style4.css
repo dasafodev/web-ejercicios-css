@@ -1,0 +1,16 @@
+input {
+  background-color: greenyellow;
+  border: solid 1px gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div > label:first-child {
+  color: red;
+  font-weight: bold;
+}
+
+div + input {
+  background-color: white;
+
+}
